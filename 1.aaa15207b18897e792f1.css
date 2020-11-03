@@ -1,0 +1,377 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+footer,
+header {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+main {
+    display: block
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+b {
+    font-weight: inherit;
+    font-weight: bolder
+}
+
+code {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+img {
+    border-style: none
+}
+
+.br2 {
+    border-radius: .25rem
+}
+
+.border-box,
+a,
+body,
+code,
+div,
+dt,
+footer,
+h1,
+h3,
+header,
+html,
+main,
+p,
+tr {
+    box-sizing: border-box
+}
+
+.pa0 {
+    padding: 0
+}
+
+.ma0 {
+    margin: 0
+}
+
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.mb1 {
+    margin-bottom: .25rem
+}
+
+.pa4 {
+    padding: 2rem
+}
+
+.mv4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.top-0 {
+    top: 0
+}
+
+.right-0 {
+    right: 0
+}
+
+.bottom-0 {
+    bottom: 0
+}
+
+.left-0 {
+    left: 0
+}
+
+.right-2 {
+    right: 2rem
+}
+
+.dt {
+    display: table
+}
+
+.dtc {
+    display: table-cell
+}
+
+.flex {
+    display: -webkit-box;
+    display: flex
+}
+
+.items-center {
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    justify-content: center
+}
+
+.code,
+code {
+    font-family: Consolas, monaco, monospace
+}
+
+.i {
+    font-style: italic
+}
+
+.b {
+    font-weight: 700
+}
+
+.fw6 {
+    font-weight: 600
+}
+
+.link {
+    text-decoration: none
+}
+
+.link,
+.link:active,
+.link:focus,
+.link:hover,
+.link:link,
+.link:visited {
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in
+}
+
+.link:focus {
+    outline: 1px dotted currentColor
+}
+
+.h1 {
+    height: 1rem
+}
+
+.h3 {
+    height: 4rem
+}
+
+.vh-100 {
+    height: 100vh
+}
+
+.gray-3 {
+    color: #565656
+}
+
+.gray-4 {
+    color: #6c6c6c
+}
+
+.gray-6 {
+    color: #9a9a9a
+}
+
+.gray-7 {
+    color: #b2b2b2
+}
+
+.bg-transparent {
+    background-color: transparent
+}
+
+.bg-black-60 {
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.bg-gray-1 {
+    background-color: #2c2c2c
+}
+
+img {
+    max-width: 100%
+}
+
+.lh-title {
+    line-height: 1.25
+}
+
+.lh-copy {
+    line-height: 1.5
+}
+
+.mw8 {
+    max-width: 64rem
+}
+
+.underline-hover:focus,
+.underline-hover:hover {
+    text-decoration: underline
+}
+
+.pointer:hover {
+    cursor: pointer
+}
+
+.overflow-y-auto {
+    overflow-y: auto
+}
+
+.absolute {
+    position: absolute
+}
+
+.fixed {
+    position: fixed
+}
+
+.no-underline {
+    text-decoration: none
+}
+
+.tr {
+    text-align: right
+}
+
+.tc {
+    text-align: center
+}
+
+.v-mid {
+    vertical-align: middle
+}
+
+.f6 {
+    font-size: 1.25rem
+}
+
+.f7 {
+    font-size: 1rem
+}
+
+.f8 {
+    font-size: .875rem
+}
+
+.f9 {
+    font-size: .75rem
+}
+
+.w3 {
+    width: 4rem
+}
+
+.w-90 {
+    width: 90%
+}
+
+.w-100 {
+    width: 100%
+}
+
+@media screen and (min-width:24em) {
+    .w-80-ns {
+        width: 80%
+    }
+}
+
+@media screen and (min-width:48em) and (max-width:64em) {
+    .w-60-m {
+        width: 60%
+    }
+}
+
+@media screen and (min-width:64em) {
+    .w-40-l {
+        width: 40%
+    }
+}
+
+.mh-100 {
+    max-height: 100vh
+}
+
+.micromodal-slide {
+    display: none
+}
+
+.micromodal-slide.is-open {
+    display: block
+}
+
+.micromodal-slide[aria-hidden=false] .modal__overlay {
+    animation: mmfadeIn .3s cubic-bezier(0, 0, .2, 1)
+}
+
+.micromodal-slide[aria-hidden=false] .modal__container {
+    animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1)
+}
+
+.micromodal-slide[aria-hidden=true] .modal__overlay {
+    animation: mmfadeOut .3s cubic-bezier(0, 0, .2, 1)
+}
+
+.micromodal-slide[aria-hidden=true] .modal__container {
+    animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1)
+}
+
+.micromodal-slide .modal__container,
+.micromodal-slide .modal__overlay {
+    will-change: transform
+}
+
+@keyframes mmfadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes mmfadeOut {
+    0% {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes mmslideIn {
+    0% {
+        transform: translateY(15%)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes mmslideOut {
+    0% {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-10%)
+    }
+}
